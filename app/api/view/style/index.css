@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #c0c0c0;
+    text-align:center;
+}
+.formDiv {
+    display: inline-block;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 360px;
+}
+.user {
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    padding: 3px 0;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.checkBtn {
+    background-color: #337ab7;
+    padding: 5px 10px;
+    border: 1px solid #337ab7;
+    border-radius: 2px;
+    margin-top: 10px;
+    color: #fff;
+}
+.checkBtn:hover {
+    background-color: #2a6496;
+    border: 1px solid #2a6496;
+}
+.hint {
+    display: none;
+    color: red;
+    font-size: 12px;
+    padding: 6px;
+}
+/* No.1 */
+/* 开始写代码，请实现页面中的表单如果在移动设备上显示时，则将整个div的宽度设置为页面的100% */
+@media screen and (max-width: 720px){
+    .formDiv{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+/*end_code*/
